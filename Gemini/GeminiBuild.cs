@@ -37,10 +37,5 @@ namespace Gemini
                     break;
             }
         }
-
-        public Task Build()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
