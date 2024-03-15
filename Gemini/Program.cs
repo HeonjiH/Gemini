@@ -28,4 +28,4 @@ var serviceProvider = services.BuildServiceProvider();
 
 // 서비스 사용
 var myService = serviceProvider.GetService<IGeminiService>();
-await myService.Build(RequestTypes.API);
+await myService.Build(RequestTypes.CSharp);

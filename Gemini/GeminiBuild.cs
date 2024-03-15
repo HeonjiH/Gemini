@@ -30,6 +30,8 @@ namespace Gemini
                     await geminiAPI.Build();
                     break;
                 case RequestTypes.CSharp:
+                    var geminiCSharp = new GeminiCSharp(_apiKey);
+                    await geminiCSharp.Build();
                     break;
                 default:
                     break;
